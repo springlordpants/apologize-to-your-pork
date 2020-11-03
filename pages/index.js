@@ -1,10 +1,13 @@
-import Header from '../components/header'
+import Header from '../components/header';
+import {Grid, GridItem} from '../styles/globalStyling';
 
 export default function Home() {
   return (
-    <div>
+    <Grid>
         <Header />
-        <h1>Apologize To Your Pork</h1>
-    </div>
+        <GridItem>
+          <h1>Apologize To Your Pork</h1>
+        </GridItem>
+    </Grid>
   )
 }
