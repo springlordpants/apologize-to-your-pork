@@ -1,12 +1,19 @@
 import styled from 'styled-components';
 
-const Grid = styled.div`
-    display: grid;
-    grid-template-columns: auto auto auto;
+const MenuPos = styled.div`
+    position: absolute;
+    top: 20px;
+    right: 20px;
 `;
 
-const GridItem = styled.div`
-    text-align: center;
-`
+const Body = styled.div`
+    display: flex;
+    justify-content: center;
+`;
 
-export {Grid, GridItem};
+const BodyItem = styled.div`
+    text-align: center;
+`;
+
+
+export {Body, BodyItem, MenuPos};
