@@ -17,7 +17,11 @@ export default function About() {
           <PostTitle>Based On A Purely Platonic Oral Fixation</PostTitle>
           <Section>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc elit lacus, bibendum in purus in, iaculis varius arcu. Nam et turpis in lorem eleifend placerat. Ut tortor nulla, pulvinar quis sollicitudin vitae, fermentum ut enim. Curabitur velit felis, molestie egestas diam sollicitudin, laoreet dapibus ex. Nam ac dolor interdum, interdum neque sit amet, posuere dolor. Maecenas egestas nisi pulvinar, euismod lectus et, fermentum sapien. Sed vitae mauris vel diam pharetra cursus. Vivamus efficitur tempor sapien, sed tristique lacus fringilla eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc elit lacus, bibendum in purus in, iaculis varius arcu. Nam et turpis in lorem eleifend placerat. Ut tortor nulla, pulvinar quis sollicitudin vitae, fermentum ut enim. Curabitur velit felis, molestie egestas diam sollicitudin, laoreet dapibus ex. Nam ac dolor interdum, interdum neque sit amet, posuere dolor. Maecenas egestas nisi pulvinar, euismod lectus et, fermentum sapien. Sed vitae mauris vel diam pharetra cursus. Vivamus efficitur tempor sapien, sed tristique lacus fringilla eu.
+              This satirical culinary diary follows the journey of a self proclaimed "dog person", who has too many stories about living their best life through food as an experience.
+              <br /><br />
+              Inspired by Juzo Itami's cult classic film, "Tampopo", dive into a blog that covers some needless details, organically sourced from this bloggers genuinely uncultured intuition to take what you know about the cuisine you love and starfish all over it. Each recipe is tailored to instruct joy in the consumption of a meal you'll never make eye contact with again and is measured with the same exactness of the average constitution of a tide pod challenger.
+              <br /><br />
+              You are invited to join this millennial who evokes the question we're all verbally abusing our phones about, "What the fuck do you do that you have the disposable income to travel?"
             </p>
           </Section>
         </SectionBorder>
