@@ -1,15 +1,17 @@
 import Header from '../components/header'
-import {Body, BodyItem, MenuPos} from '../styles/globalStyling';
+import {Body, TitleWrapper, MenuPos, HeadTitle} from '../styles/globalStyling';
+import GlobalFonts from '../styles/globalFonts';
 
-export default function Home() {
+export default function About() {
   return (
     <Body>
+      <GlobalFonts />
         <MenuPos>
           <Header />
         </MenuPos>
-        <BodyItem>
-          <h1>About</h1>
-        </BodyItem>
+        <TitleWrapper>
+          <HeadTitle>About</HeadTitle>
+        </TitleWrapper>
     </Body>
   )
 }

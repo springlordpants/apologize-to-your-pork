@@ -11,9 +11,12 @@ const Body = styled.div`
     justify-content: center;
 `;
 
-const BodyItem = styled.div`
+const TitleWrapper = styled.div`
     text-align: center;
 `;
 
+const HeadTitle = styled.h1`
+    font-family: 'Luna'
+`;
 
-export {Body, BodyItem, MenuPos};
+export {Body, TitleWrapper, MenuPos, HeadTitle};

@@ -1,16 +1,18 @@
 import Header from '../components/header';
-import {Body, BodyItem, MenuPos} from '../styles/globalStyling';
+import {Body, TitleWrapper, MenuPos, HeadTitle} from '../styles/globalStyling';
+import GlobalFonts from '../styles/globalFonts';
 
 export default function Home() {
   return (
     <Body>
+      <GlobalFonts />
         <MenuPos>
           <Header />
         </MenuPos>
-        <BodyItem>
-          <h1>Apologize To Your Pork</h1>
+        <TitleWrapper>
+          <HeadTitle>Apologize To Your Pork</HeadTitle>
           <h3>Recipes for Sparking Joy</h3>
-        </BodyItem>
+        </TitleWrapper>
     </Body>
   )
 }
