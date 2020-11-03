@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div>
         <Header />
-        <h1>Apologize To Your Pork</h1>
+        <h1>Contact</h1>
     </div>
   )
 }
