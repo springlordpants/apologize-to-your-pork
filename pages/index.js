@@ -7,6 +7,7 @@ export default function Home() {
         <Header />
         <GridItem>
           <h1>Apologize To Your Pork</h1>
+          <h3>Recipes for Sparking Joy</h3>
         </GridItem>
     </Grid>
   )
