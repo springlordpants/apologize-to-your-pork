@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const MenuPos = styled.div`
-    position: absolute;
+    position: fixed;
     top: 20px;
     right: 20px;
 `;
