@@ -28,9 +28,16 @@ const SecondTitle = styled.h3`
     color: #f6f3e0;
 `;
 
+const PostTitle = styled.h5`
+    font-family: 'Luna';
+    color: #f3d610;
+    padding: 0 50px;
+`;
+
+
 const SectionBorder = styled.div`
     padding: 10px;
-    background: #dd3c42;
+    background: #eb3041;
     border-radius: 25px;
 `;
 
@@ -41,4 +48,4 @@ const Section = styled.div`
 `;
 
 
-export {Body, TitleWrapper, MenuPos, HeadTitle, SecondTitle, Section, SectionBorder};
+export {Body, TitleWrapper, MenuPos, HeadTitle, SecondTitle, PostTitle, Section, SectionBorder};
