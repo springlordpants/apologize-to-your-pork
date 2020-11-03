@@ -4,6 +4,7 @@ import GlobalFonts from '../styles/globalFonts';
 
 export default function Home() {
   return (
+    <div>
     <Body>
       <GlobalFonts />
         <MenuPos>
@@ -14,5 +15,6 @@ export default function Home() {
           <SecondTitle>Recipes for Sparking Joy</SecondTitle>
         </TitleWrapper>
     </Body>
+    </div>
   )
 }
