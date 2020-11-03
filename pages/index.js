@@ -1,6 +1,7 @@
 import Header from '../components/header';
 import {Body, TitleWrapper, MenuPos, HeadTitle, SecondTitle} from '../styles/globalStyling';
 import GlobalFonts from '../styles/globalFonts';
+import Container from '@material-ui/core/Container';
 
 export default function Home() {
   return (
@@ -10,10 +11,12 @@ export default function Home() {
         <MenuPos>
           <Header />
         </MenuPos>
-        <TitleWrapper>
-          <HeadTitle>Apologize To Your Pork</HeadTitle>
-          <SecondTitle>Recipes for Sparking Joy</SecondTitle>
-        </TitleWrapper>
+        <Container maxWidth="md">
+          <TitleWrapper>
+            <HeadTitle>Apologize To Your Pork</HeadTitle>
+            <SecondTitle>Recipes for Sparking Joy</SecondTitle>
+          </TitleWrapper>
+        </Container>
     </Body>
     </div>
   )

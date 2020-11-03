@@ -1,9 +1,10 @@
 import styled from 'styled-components';
 
+
 const MenuPos = styled.div`
-    position: fixed;
-    top: 10px;
-    right: 50px;
+    position: absolute;
+    top: 60px;
+    right: 70px;
 `;
 
 const Body = styled.div`
@@ -21,12 +22,14 @@ const TitleWrapper = styled.div`
 
 const HeadTitle = styled.h1`
     font-family: 'Luna';
+    padding: 0 25px;
     font-size: 50px;
     color: #f6f3e0;
 `;
 
 const SecondTitle = styled.h3`
     font-family: 'Luna';
+    padding: 0 25px;
     font-size: 25px;
     color: #f6f3e0;
 `;
