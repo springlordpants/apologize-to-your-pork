@@ -9,6 +9,7 @@ const MenuPos = styled.div`
 const Body = styled.div`
     display: flex;
     justify-content: center;
+    background: #69aefc;
 `;
 
 const TitleWrapper = styled.div`
@@ -16,7 +17,16 @@ const TitleWrapper = styled.div`
 `;
 
 const HeadTitle = styled.h1`
-    font-family: 'Luna'
+    font-family: 'Luna';
+    font-size: 50px;
+    color: #f6f3e0;
 `;
 
-export {Body, TitleWrapper, MenuPos, HeadTitle};
+const SecondTitle = styled.h1`
+    font-family: 'Luna';
+    font-size: 25px;
+    color: #f6f3e0;
+`;
+
+
+export {Body, TitleWrapper, MenuPos, HeadTitle, SecondTitle};

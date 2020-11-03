@@ -1,5 +1,5 @@
 import Header from '../components/header';
-import {Body, TitleWrapper, MenuPos, HeadTitle} from '../styles/globalStyling';
+import {Body, TitleWrapper, MenuPos, HeadTitle, SecondTitle} from '../styles/globalStyling';
 import GlobalFonts from '../styles/globalFonts';
 
 export default function Home() {
@@ -11,7 +11,7 @@ export default function Home() {
         </MenuPos>
         <TitleWrapper>
           <HeadTitle>Apologize To Your Pork</HeadTitle>
-          <h3>Recipes for Sparking Joy</h3>
+          <SecondTitle>Recipes for Sparking Joy</SecondTitle>
         </TitleWrapper>
     </Body>
   )
