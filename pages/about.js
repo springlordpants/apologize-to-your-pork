@@ -11,9 +11,11 @@ export default function About() {
         <MenuPos>
           <Header />
         </MenuPos>
-        <TitleWrapper>
-          <HeadTitle>About</HeadTitle>
-        </TitleWrapper>
+        <Container maxWidth="md">
+          <TitleWrapper>
+            <HeadTitle>About</HeadTitle>
+          </TitleWrapper>
+        </Container>
         <Container maxWidth="md">
           <SectionBorder>
             <PostTitle>Based On A Purely Platonic Oral Fixation</PostTitle>

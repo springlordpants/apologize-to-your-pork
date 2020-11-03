@@ -2,18 +2,21 @@ import styled from 'styled-components';
 
 const MenuPos = styled.div`
     position: fixed;
-    top: 20px;
-    right: 20px;
+    top: 10px;
+    right: 50px;
 `;
 
 const Body = styled.div`
     padding: 25px;
     justify-content: center;
-    background: #69aefc;
 `;
 
 const TitleWrapper = styled.div`
+    padding: 1px;
+    margin: 10px 0;
+    border-radius: 25px;
     text-align: center;
+    background: #69aefc;
 `;
 
 const HeadTitle = styled.h1`
@@ -45,6 +48,7 @@ const Section = styled.div`
     padding: 25px 50px;
     background: white;
     border-radius: 25px;
+    font-size: 17px;
 `;
 
 
