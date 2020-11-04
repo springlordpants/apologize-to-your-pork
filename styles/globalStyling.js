@@ -3,9 +3,10 @@ import bg from '../imgs/wild-sea.png'
 
 
 const Body = styled.body`
-    padding: 0 25px;
+    margin: 0;
+    padding: 0;
     justify-content: center;
-    background-image: url(${bg});
+    background: url(${bg});
 `;
 
 const MenuPos = styled.div`
