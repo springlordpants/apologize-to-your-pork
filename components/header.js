@@ -4,10 +4,10 @@ import Button from '@material-ui/core/Button';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
 import MenuIcon from '@material-ui/icons/Menu';
-import { MenuBg, ItemText } from '../styles/menuStyling'
+import { MenuBg, ItemText } from '../styles/menuStyling';
 
 
-export default function Home() {
+export default function Header() {
 
     const [anchorEl, setAnchorEl] = useState(null);
 
@@ -30,7 +30,7 @@ export default function Home() {
                 keepMounted
                 open={Boolean(anchorEl)}
                 onClose={handleClose}>
-                    <MenuBg>
+                    <MenuBg >
                         <MenuItem onClick={handleClose}>
                             <Link as="../pages/index.js/" href="/">
                                 <ItemText>Home</ItemText>
