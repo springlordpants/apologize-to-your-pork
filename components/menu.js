@@ -21,7 +21,7 @@ export default function Header() {
 
     return (
         <div>
-            <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick} style={{backgroundColor:'#69aefc'}}>
+            <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick}>
               <MenuIcon style={{ color: '#f6f3e0' }} />
             </Button>
             <Menu

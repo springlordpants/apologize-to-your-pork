@@ -9,11 +9,9 @@ export default function About() {
     <Body>
       <GlobalFonts />
       <Container maxWidth="md">
-        <Container maxWidth="sm">
           <MenuPos>
             <Menu />
           </MenuPos>
-        </Container>
           <TitleWrapper>
             <HeadTitle>About</HeadTitle>
           </TitleWrapper>
