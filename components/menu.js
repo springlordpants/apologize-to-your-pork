@@ -4,7 +4,7 @@ import Button from '@material-ui/core/Button';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
 import MenuIcon from '@material-ui/icons/Menu';
-import { ItemText } from '../styles/menuStyling';
+import { MenuItemBg, ItemText } from '../styles/menuStyling';
 
 
 export default function Header() {
@@ -21,7 +21,7 @@ export default function Header() {
 
     return (
         <div>
-            <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick}>
+            <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick} style={{backgroundColor:'#69aefc'}}>
               <MenuIcon style={{ color: '#f6f3e0' }} />
             </Button>
             <Menu
@@ -30,7 +30,7 @@ export default function Header() {
                 keepMounted
                 open={Boolean(anchorEl)}
                 onClose={handleClose}>
-                    <div>
+                    <MenuItemBg>
                         <MenuItem onClick={handleClose}>
                             <Link as="../pages/index.js/" href="/">
                                 <ItemText>Home</ItemText>
@@ -46,7 +46,7 @@ export default function Header() {
                                 <ItemText>Contact</ItemText>
                             </Link>
                         </MenuItem> 
-                    </div>
+                    </MenuItemBg>
             </Menu>
         </div>
     );

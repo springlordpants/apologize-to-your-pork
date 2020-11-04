@@ -1,4 +1,4 @@
-import Header from '../components/header'
+import Menu from '../components/menu'
 import { Body, TitleWrapper, MenuPos, HeadTitle, SecondTitle, PostTitle, Section, SectionBorder } from '../styles/globalStyling';
 import GlobalFonts from '../styles/globalFonts';
 import Container from '@material-ui/core/Container';
@@ -11,7 +11,7 @@ export default function About() {
       <Container maxWidth="md">
         <Container maxWidth="sm">
           <MenuPos>
-            <Header />
+            <Menu />
           </MenuPos>
         </Container>
           <TitleWrapper>

@@ -1,4 +1,4 @@
-import Header from '../components/header'
+import Menu from '../components/menu'
 import { Body, TitleWrapper, MenuPos, HeadTitle } from '../styles/globalStyling';
 import GlobalFonts from '../styles/globalFonts';
 import Container from '@material-ui/core/Container';
@@ -9,7 +9,7 @@ export default function Contact() {
       <GlobalFonts />
       <Container maxWidth="md">
         <MenuPos>
-          <Header />
+          <Menu />
         </MenuPos>
           <TitleWrapper>
             <HeadTitle>Contact</HeadTitle>
