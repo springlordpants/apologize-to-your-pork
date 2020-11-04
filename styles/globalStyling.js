@@ -1,15 +1,17 @@
 import styled from 'styled-components';
+import bg from '../imgs/wild-sea.png'
 
+
+const Body = styled.body`
+    padding: 0 25px;
+    justify-content: center;
+    background-image: url(${bg});
+`;
 
 const MenuPos = styled.div`
     position: relative;
     top: 60px;
     left: 10px;
-`;
-
-const Body = styled.div`
-    padding: 0 25px;
-    justify-content: center;
 `;
 
 const TitleWrapper = styled.div`
