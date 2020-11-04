@@ -8,7 +8,7 @@ const MenuPos = styled.div`
 `;
 
 const Body = styled.div`
-    padding: 25px;
+    padding: 0 25px;
     justify-content: center;
 `;
 
