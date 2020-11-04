@@ -1,5 +1,5 @@
 import Header from '../components/header'
-import {Body, TitleWrapper, MenuPos, HeadTitle} from '../styles/globalStyling';
+import { Body, TitleWrapper, MenuPos, HeadTitle } from '../styles/globalStyling';
 import GlobalFonts from '../styles/globalFonts';
 import Container from '@material-ui/core/Container';
 
