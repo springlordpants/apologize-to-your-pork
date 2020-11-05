@@ -3,6 +3,9 @@ import { Body, TitleWrapper, MenuPos, HeadTitle, PostTitle, Section, SectionBord
 import GlobalFonts from '../styles/globalFonts';
 import Container from '@material-ui/core/Container';
 import TopButton from '../components/topButton';
+import Link from 'next/link';
+import MailOutlineIcon from '@material-ui/icons/MailOutline';
+import TwitterIcon from '@material-ui/icons/Twitter';
 
 export default function Contact() {
   return (
@@ -19,7 +22,25 @@ export default function Contact() {
           <SectionBorder>
             <PostTitle>Request your favorite dishes:</PostTitle>
             <Section>
-              <p>This is where contact information will be listed.</p>
+              <PostTitle>Send your food apologies here</PostTitle>
+              <ul>
+                <li>
+                  <Link href={{
+                    pathname: 'mailto:byron.filler@gmail.com',
+                    query: {name: 'email'},
+                  }}>
+                    <a target='_blank'><MailOutlineIcon />byron.filler@gmail.com</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href={{
+                    pathname: 'https://twitter.com/filler_films',
+                    query: {name: 'twitter'},
+                  }}>
+                    <a target='_blank'><TwitterIcon />@filler_films</a>
+                  </Link>
+                </li>
+              </ul>
             </Section>
           </SectionBorder>
         </Container>

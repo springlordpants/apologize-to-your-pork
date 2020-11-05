@@ -61,9 +61,6 @@ const Section = styled.div`
     background: white;
     border-radius: 25px;
     font-size: 17px;
-    @media (max-width: 500px) {
-      font-size: 20px;
-    }
 `;
 
 
