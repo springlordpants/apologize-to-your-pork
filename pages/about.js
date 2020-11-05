@@ -1,6 +1,7 @@
 import Menu from '../components/menu'
 import { Body, TitleWrapper, MenuPos, HeadTitle, PostTitle, Section, SectionBorder } from '../styles/globalStyling';
 import GlobalFonts from '../styles/globalFonts';
+import BodyFonts from '../styles/bodyFont';
 import Container from '@material-ui/core/Container';
 import TopButton from '../components/topButton';
 
@@ -9,6 +10,7 @@ export default function About() {
     <div>
     <Body>
       <GlobalFonts />
+      <BodyFonts />
       <Container maxWidth="md">
           <MenuPos>
             <Menu id="back-to-top-anchor" />

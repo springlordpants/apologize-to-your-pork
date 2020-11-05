@@ -1,6 +1,8 @@
 import Menu from '../components/menu'
 import { Body, TitleWrapper, MenuPos, HeadTitle, PostTitle, Section, SectionBorder } from '../styles/globalStyling';
+import { LinkStyle } from '../styles/contactStyling'
 import GlobalFonts from '../styles/globalFonts';
+import BodyFonts from '../styles/bodyFont';
 import Container from '@material-ui/core/Container';
 import TopButton from '../components/topButton';
 import Link from 'next/link';
@@ -11,6 +13,7 @@ export default function Contact() {
   return (
     <Body>
       <GlobalFonts />
+      <BodyFonts />
       <Container maxWidth="md">
         <MenuPos>
           <Menu />

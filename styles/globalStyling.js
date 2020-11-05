@@ -61,6 +61,7 @@ const Section = styled.div`
     background: white;
     border-radius: 25px;
     font-size: 17px;
+    font-family: 'Itim';
 `;
 
 
