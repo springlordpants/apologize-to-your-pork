@@ -2,6 +2,7 @@ import Menu from '../components/menu'
 import { Body, TitleWrapper, MenuPos, HeadTitle, PostTitle, Section, SectionBorder } from '../styles/globalStyling';
 import GlobalFonts from '../styles/globalFonts';
 import Container from '@material-ui/core/Container';
+import TopButton from '../components/topButton';
 
 export default function Contact() {
   return (
@@ -14,6 +15,7 @@ export default function Contact() {
           <TitleWrapper>
             <HeadTitle>Contact</HeadTitle>
           </TitleWrapper>
+          <TopButton />
           <SectionBorder>
             <PostTitle>Request your favorite dishes:</PostTitle>
             <Section>

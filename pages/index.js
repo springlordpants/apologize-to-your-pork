@@ -2,6 +2,7 @@ import Menu from '../components/menu';
 import { Body, TitleWrapper, MenuPos, HeadTitle, SecondTitle } from '../styles/globalStyling';
 import GlobalFonts from '../styles/globalFonts';
 import Container from '@material-ui/core/Container';
+import TopButton from '../components/topButton';
 
 export default function Home() {
   return (
@@ -12,11 +13,12 @@ export default function Home() {
         <MenuPos>
           <Menu />
         </MenuPos>
-          <TitleWrapper>
-            <HeadTitle>Apologize To Your Pork</HeadTitle>
-            <SecondTitle>Recipes for Sparking Joy</SecondTitle>
-          </TitleWrapper>
-        </Container>
+        <TitleWrapper>
+          <HeadTitle>Apologize To Your Pork</HeadTitle>
+          <SecondTitle>Recipes for Sparking Joy</SecondTitle>
+        </TitleWrapper>
+        <TopButton />
+      </Container>
     </Body>
     </div>
   )

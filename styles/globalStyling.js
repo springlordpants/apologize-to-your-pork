@@ -17,7 +17,7 @@ const MenuPos = styled.div`
 
 const TitleWrapper = styled.div`
     padding: 1px;
-    margin: 10px 0;
+    margin: 10px 0 -20px;
     border-radius: 25px;
     text-align: center;
     background: #69aefc;

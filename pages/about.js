@@ -2,6 +2,7 @@ import Menu from '../components/menu'
 import { Body, TitleWrapper, MenuPos, HeadTitle, PostTitle, Section, SectionBorder } from '../styles/globalStyling';
 import GlobalFonts from '../styles/globalFonts';
 import Container from '@material-ui/core/Container';
+import TopButton from '../components/topButton';
 
 export default function About() {
   return (
@@ -10,11 +11,12 @@ export default function About() {
       <GlobalFonts />
       <Container maxWidth="md">
           <MenuPos>
-            <Menu />
+            <Menu id="back-to-top-anchor" />
           </MenuPos>
           <TitleWrapper>
             <HeadTitle>About</HeadTitle>
           </TitleWrapper>
+          <TopButton />
           <SectionBorder>
             <PostTitle>Based On A Purely Platonic Oral Fixation</PostTitle>
             <Section>
