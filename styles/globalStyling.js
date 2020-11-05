@@ -27,6 +27,9 @@ const HeadTitle = styled.h1`
     font-family: 'Luna';
     padding: 25px 25px 0;
     font-size: 50px;
+    @media (max-width: 500px) {
+      font-size: 30px;
+    }
     color: #f6f3e0;
 `;
 
@@ -34,18 +37,21 @@ const SecondTitle = styled.h3`
     font-family: 'Luna';
     padding: 0 25px;
     font-size: 25px;
+    @media (max-width: 500px) {
+      font-size: 15px;
+    }
     color: #f6f3e0;
 `;
 
 const PostTitle = styled.h5`
     font-family: 'Luna';
     color: #f3d610;
-    padding: 0 50px;
+    margin: 20px 50px 10px;
 `;
 
-
 const SectionBorder = styled.div`
-    padding: 10px;
+    margin-bottom: 20px;
+    padding: 1px 10px 10px;
     background: #eb3041;
     border-radius: 25px;
 `;
@@ -55,6 +61,9 @@ const Section = styled.div`
     background: white;
     border-radius: 25px;
     font-size: 17px;
+    @media (max-width: 500px) {
+      font-size: 20px;
+    }
 `;
 
 

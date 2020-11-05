@@ -1,5 +1,5 @@
 import Menu from '../components/menu'
-import { Body, TitleWrapper, MenuPos, HeadTitle, SecondTitle, PostTitle, Section, SectionBorder } from '../styles/globalStyling';
+import { Body, TitleWrapper, MenuPos, HeadTitle, PostTitle, Section, SectionBorder } from '../styles/globalStyling';
 import GlobalFonts from '../styles/globalFonts';
 import Container from '@material-ui/core/Container';
 
