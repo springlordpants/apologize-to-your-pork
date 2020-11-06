@@ -1,4 +1,5 @@
 import Menu from '../components/menu'
+import Head from 'next/head';
 import { Body, TitleWrapper, MenuPos, HeadTitle, PostTitle, Section, SectionBorder } from '../styles/globalStyling';
 import GlobalFonts from '../styles/globalFonts';
 import BodyFonts from '../styles/bodyFont';
@@ -8,6 +9,9 @@ import TopButton from '../components/topButton';
 export default function About() {
   return (
     <div>
+    <Head>
+      <title>About</title>
+    </Head>
     <Body>
       <GlobalFonts />
       <BodyFonts />

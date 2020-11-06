@@ -1,4 +1,5 @@
-import Menu from '../components/menu'
+import Menu from '../components/menu';
+import Head from 'next/head';
 import { Body, TitleWrapper, MenuPos, HeadTitle, PostTitle, Section, SectionBorder } from '../styles/globalStyling';
 import { ContactSection, ContactContent, ContactList, ListItem } from '../styles/contactStyling';
 import GlobalFonts from '../styles/globalFonts';
@@ -12,6 +13,10 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 
 export default function Contact() {
   return (
+    <div>
+    <Head>
+      <title>Contact</title>
+    </Head>
     <Body>
       <GlobalFonts />
       <BodyFonts />
@@ -35,7 +40,7 @@ export default function Contact() {
                       query: {name: 'email'},
                     }}>
                         <a target='_blank'>
-                          <MailOutlineIcon />
+                          <MailOutlineIcon style={{ fontSize: 50 }} />
                           <p>byron.filler@gmail.com</p>
                         </a>
                     </Link>
@@ -46,7 +51,7 @@ export default function Contact() {
                       query: {name: 'twitter'},
                     }}>
                         <a target='_blank'>
-                          <TwitterIcon />
+                          <TwitterIcon style={{ fontSize: 50 }} />
                           <p>@filler_films</p>
                         </a>
                     </Link>
@@ -57,7 +62,7 @@ export default function Contact() {
                       query: {name: 'github'},
                     }}>
                         <a target='_blank'>
-                          <GitHubIcon />
+                          <GitHubIcon style={{ fontSize: 50 }} />
                           <p>@filler_films</p>
                         </a>
                     </Link>
@@ -68,5 +73,6 @@ export default function Contact() {
           </SectionBorder>
         </Container>
     </Body>
+    </div>
   )
 }
