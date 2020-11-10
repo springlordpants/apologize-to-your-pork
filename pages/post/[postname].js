@@ -1,11 +1,11 @@
 import {useRouter} from 'next/router';
 import Head from 'next/head'
-import Menu from '../../components/menu';
+import Menu from '../../components/Menu';
 import {Body, TitleWrapper, MenuPos, SecondTitle, Section } from '../../styles/globalStyling';
 import GlobalFonts from '../../styles/globalFonts';
 import BodyFonts from '../../styles/bodyFont';
 import Container from '@material-ui/core/Container';
-import TopButton from '../../components/topButton';
+import TopButton from '../../components/TopButton';
 
 const Post = () => {
     const router = useRouter();
