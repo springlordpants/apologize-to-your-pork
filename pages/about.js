@@ -1,31 +1,17 @@
-import Menu from '../components/menu'
-import Head from 'next/head';
-import { Body, TitleWrapper, MenuPos, HeadTitle, PostTitle, Section, SectionBorder } from '../styles/globalStyling';
-import GlobalFonts from '../styles/globalFonts';
-import BodyFonts from '../styles/bodyFont';
-import Container from '@material-ui/core/Container';
-import TopButton from '../components/topButton';
 
-export default function About() {
+import Layout from '../components/Layout';
+import { TitleWrapper, HeadTitle, SecondTitle, PostTitle, Section, SectionBorder } from '../styles/globalStyling';
+
+const About = () => {
   return (
-    <div>
-    <Head>
-      <title>About</title>
-    </Head>
-    <Body>
-      <GlobalFonts />
-      <BodyFonts />
-      <Container maxWidth="md">
-          <MenuPos>
-            <Menu id="back-to-top-anchor" />
-          </MenuPos>
-          <TitleWrapper>
-            <HeadTitle>About</HeadTitle>
-          </TitleWrapper>
-          <TopButton />
-          <SectionBorder>
-            <PostTitle>Based On A Purely Platonic Oral Fixation</PostTitle>
-            <Section>
+    <Layout>
+      <TitleWrapper>
+          <HeadTitle>About</HeadTitle>
+      </TitleWrapper>
+      <SectionBorder>
+          <PostTitle>Based On A Purely Platonic Oral Fixation</PostTitle>
+          <Section>
+            <main>
               <p>
                 This satirical culinary diary follows the journey of a self proclaimed "dog person", who has too many stories about living their best life through food as an experience.
                 <br /><br />
@@ -33,10 +19,11 @@ export default function About() {
                 <br /><br />
                 You are invited to join this millennial who evokes the question we're all verbally abusing our phones about, "What the fuck do you do that you have the disposable income to travel?"
               </p>
-            </Section>
-          </SectionBorder>
-        </Container>
-    </Body>
-    </div>
+            </main>
+          </Section>
+      </SectionBorder>
+    </Layout>
   )
 }
+
+export default About
