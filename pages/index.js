@@ -6,10 +6,7 @@ const Index = ({ title, description, ...props }) => {
     <Layout pageTitle={title}>
       <TitleWrapper>
           <HeadTitle>Apologize To Your Pork</HeadTitle>
-          <SecondTitle>Recipes for Sparking Joy</SecondTitle>
-          <p>
-            {description}
-          </p>
+          <SecondTitle>{description}</SecondTitle>
       </TitleWrapper>
       <SectionBorder>
           <PostTitle>Apologize To Your Test</PostTitle>
