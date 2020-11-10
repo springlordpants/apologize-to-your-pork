@@ -1,4 +1,3 @@
-
 import Layout from '../components/Layout';
 import { TitleWrapper, HeadTitle, SecondTitle, PostTitle, Section, SectionBorder } from '../styles/globalStyling';
 

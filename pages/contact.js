@@ -1,36 +1,21 @@
-import Menu from '../components/menu';
-import Head from 'next/head';
-import { Body, TitleWrapper, MenuPos, HeadTitle, PostTitle, Section, SectionBorder } from '../styles/globalStyling';
+import Layout from '../components/Layout';
+import { TitleWrapper, HeadTitle, SecondTitle, PostTitle, Section, SectionBorder } from '../styles/globalStyling';
 import { ContactSection, ContactContent, ContactList, ListItem } from '../styles/contactStyling';
-import GlobalFonts from '../styles/globalFonts';
-import BodyFonts from '../styles/bodyFont';
-import Container from '@material-ui/core/Container';
-import TopButton from '../components/topButton';
 import Link from 'next/link';
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import GitHubIcon from '@material-ui/icons/GitHub';
 
-export default function Contact() {
+
+const Contact = () => {
   return (
-    <div>
-    <Head>
-      <title>Contact</title>
-    </Head>
-    <Body>
-      <GlobalFonts />
-      <BodyFonts />
-      <Container maxWidth="md">
-        <MenuPos>
-          <Menu />
-        </MenuPos>
-          <TitleWrapper>
-            <HeadTitle>Contact</HeadTitle>
-          </TitleWrapper>
-          <TopButton />
-          <SectionBorder>
-            <PostTitle>Request your favorite dishes:</PostTitle>
-            <ContactSection>
+    <Layout>
+      <TitleWrapper>
+          <HeadTitle>Contact</HeadTitle>
+      </TitleWrapper>
+      <SectionBorder>
+          <PostTitle>Request your favorite dishes:</PostTitle>
+              <ContactSection>
               <PostTitle>Send your food apologies to</PostTitle>
               <ContactContent>
                 <ContactList>
@@ -70,9 +55,9 @@ export default function Contact() {
                 </ContactList>
               </ContactContent>
             </ContactSection>
-          </SectionBorder>
-        </Container>
-    </Body>
-    </div>
+      </SectionBorder>
+    </Layout>
   )
 }
+
+export default Contact
