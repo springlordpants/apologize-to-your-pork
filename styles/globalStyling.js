@@ -50,7 +50,7 @@ const PostTitle = styled.h5`
 `;
 
 const SectionBorder = styled.div`
-    margin-bottom: 20px;
+    margin: 50px 0;
     padding: 1px 10px 10px;
     background: #eb3041;
     border-radius: 25px;

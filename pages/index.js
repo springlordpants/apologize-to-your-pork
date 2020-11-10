@@ -1,39 +1,37 @@
-import Menu from '../components/Menu';
-import Head from 'next/head';
-import { Body, TitleWrapper, MenuPos, HeadTitle, SecondTitle, PostTitle, Section, SectionBorder } from '../styles/globalStyling';
-import GlobalFonts from '../styles/globalFonts';
-import BodyFonts from '../styles/bodyFont';
-import Container from '@material-ui/core/Container';
-import TopButton from '../components/TopButton';
+import Layout from '../components/Layout';
+import { TitleWrapper, HeadTitle, SecondTitle, PostTitle, Section, SectionBorder } from '../styles/globalStyling';
 
-export default function Home() {
+const Index = ({ title, description, ...props }) => {
   return (
-    <div>
-      <Head>
-        <title>Home</title>
-      </Head>
-    <Body>
-      <Container maxWidth="md">
-      <GlobalFonts />
-      <BodyFonts />
-        <MenuPos>
-          <Menu />
-        </MenuPos>
-        <TitleWrapper>
+    <Layout pageTitle={title}>
+      <TitleWrapper>
           <HeadTitle>Apologize To Your Pork</HeadTitle>
           <SecondTitle>Recipes for Sparking Joy</SecondTitle>
-        </TitleWrapper>
-        <TopButton />
-        <SectionBorder>
-          <div>
-            <PostTitle>Apologize To Your Test</PostTitle>
-            <Section>
-              <p>Temp Post</p>
-            </Section>
-          </div>
-        </SectionBorder>
-      </Container>
-    </Body>
-    </div>
+          <p>
+            {description}
+          </p>
+      </TitleWrapper>
+      <SectionBorder>
+          <PostTitle>Apologize To Your Test</PostTitle>
+          <Section>
+            <main>
+              <div>Posts go here!</div>
+            </main>
+          </Section>
+      </SectionBorder>
+    </Layout>
   )
+}
+
+export default Index
+
+export async function getStaticProps() {
+  const configData = await import(`../siteconfig.json`)
+
+  return {
+    props: {
+      title: configData.default.title,
+      description: configData.default.description,
+    },
+  }
 }

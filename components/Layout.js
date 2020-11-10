@@ -1,9 +1,9 @@
 import Head from 'next/head';
-import Menu from '@components/Menu';
-import TopButton from '@components/TopButton';
-import { Body, TitleWrapper, MenuPos, HeadTitle, SecondTitle, PostTitle, Section, SectionBorder } from '@styles/globalStyling'
+import Menu from './Menu';
+import TopButton from './TopButton';
+import { Body, MenuPos } from '../styles/globalStyling';
 import GlobalFonts from '../styles/globalFonts';
-import BodyFonts from '../styles/bodyFont';
+import BodyFont from '../styles/bodyFont';
 import Container from '@material-ui/core/Container';
 
 export default function Layout ({ children, pageTitle, ...props}) {
@@ -16,23 +16,14 @@ export default function Layout ({ children, pageTitle, ...props}) {
             <Body>
                 <Container maxWidth="md">
                     <GlobalFonts />
-                    <BodyFonts />
+                    <BodyFont />
+                    <TopButton />
                         <MenuPos>
                             <Menu />
                         </MenuPos>
-                    <TitleWrapper>
-                        <HeadTitle>Apologize To Your Pork</HeadTitle>
-                        <SecondTitle>Recipes for Sparking Joy</SecondTitle>
-                    </TitleWrapper>
-                    <TopButton />
-                    <SectionBorder>
-                      <div>
-                        <PostTitle>Apologize To Your Test</PostTitle>
-                        <Section>
-                          <div>{children}</div>
-                        </Section>
-                      </div>
-                    </SectionBorder>
+                    <section>
+                        <div>{children}</div>
+                    </section>
                 </Container>
             </Body>
         </>
