@@ -1,20 +1,27 @@
-import Layout from '../components/Layout';
-import { TitleWrapper, HeadTitle, SecondTitle, PostTitle, Section, SectionBorder } from '../styles/globalStyling';
+import Layout from "../components/Layout"
+import {
+  TitleWrapper,
+  HeadTitle,
+  SecondTitle,
+  PostTitle,
+  Section,
+  SectionBorder,
+} from "../styles/globalStyling"
 
 const Index = ({ title, description, ...props }) => {
   return (
     <Layout pageTitle={title}>
       <TitleWrapper>
-          <HeadTitle>Apologize To Your Pork</HeadTitle>
-          <SecondTitle>{description}</SecondTitle>
+        <HeadTitle>Apologize To Your Pork</HeadTitle>
+        <SecondTitle>{description}</SecondTitle>
       </TitleWrapper>
       <SectionBorder>
-          <PostTitle>Apologize To Your Test</PostTitle>
-          <Section>
-            <main>
-              <div>Posts go here!</div>
-            </main>
-          </Section>
+        <PostTitle>Apologize To Your Test</PostTitle>
+        <Section>
+          <main>
+            <div>Posts go here!</div>
+          </main>
+        </Section>
       </SectionBorder>
     </Layout>
   )
