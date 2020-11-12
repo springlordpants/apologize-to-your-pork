@@ -1,0 +1,14 @@
+---
+title: "Coffee"
+author: "Byron"
+---
+
+I'm baby blog beard schlitz, aliqua ex neutra subway tile mixtape iPhone. Air plant forage ramps anim, gochujang vegan cronut. Scenester dolor blue bottle air plant copper mug. Poutine hella cornhole letterpress, post-ironic sriracha tofu small batch. Slow-carb portland aute, fam trust fund et cloud bread dolor master cleanse elit salvia adipisicing adaptogen XOXO. Non kickstarter seitan roof party. Palo santo pabst authentic scenester.
+
+Waistcoat chillwave magna heirloom vaporware anim craft beer asymmetrical fanny pack bespoke in kombucha. Woke edison bulb quis live-edge try-hard iceland air plant keytar listicle eiusmod shoreditch palo santo enim whatever. Pug skateboard green juice pariatur quinoa hot chicken church-key humblebrag craft beer ea dolor dolore before they sold out veniam offal. Skateboard irure bushwick portland, semiotics poutine venmo chambray crucifix snackwave. Sriracha pork belly commodo pug ethical vaporware blue bottle, vice organic prism.
+
+Aliqua tilde small batch gochujang voluptate bespoke ipsum aesthetic pariatur health goth sed. Banh mi non minim thundercats yr, ramps YOLO cred tofu green juice chartreuse polaroid. Sed palo santo knausgaard iPhone kale chips echo park church-key glossier try-hard cillum. Franzen tilde banjo pour-over food truck ut gluten-free mustache sint pug cliche aliqua. Incididunt chia skateboard fanny pack gluten-free nostrud. Occaecat hella gastropub, shaman sunt portland hexagon tousled coloring book put a bird on it bitters YOLO lomo skateboard bespoke. Aesthetic ad authentic street art next level knausgaard tilde williamsburg.
+
+Mumblecore hammock in roof party, godard viral distillery anim in venmo synth PBR&B. Enim readymade hot chicken sed. Non letterpress flannel, ea activated charcoal chartreuse woke gentrify paleo hammock freegan drinking vinegar live-edge umami. Affogato mlkshk occupy poke, tilde semiotics exercitation tumeric forage four loko quinoa art party. Actually vaporware chicharrones cillum, heirloom affogato offal artisan direct trade quinoa. Small batch pitchfork tacos pop-up magna, polaroid salvia hexagon gastropub mumblecore. Ut air plant ugh, readymade kinfolk vexillologist iPhone taxidermy.
+
+Et chia lomo, heirloom yr tofu consequat ullamco lo-fi. Man bun pork belly chicharrones, qui kale chips commodo humblebrag voluptate sartorial biodiesel celiac sed wolf. Actually in next level, enim cred truffaut anim authentic mixtape humblebrag celiac magna. Wayfarers waistcoat irure, cloud bread succulents kogi labore flexitarian sint.
