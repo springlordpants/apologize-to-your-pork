@@ -3,7 +3,7 @@ import matter from 'gray-matter';
 import ReactMarkdown from 'react-markdown';
 import Layout from '../../components/Layout'
 
-export default function BlogPost ({ sitetitle, frontmatter, markdownBody }) {
+export default function BlogPost ({ siteTitle, frontmatter, markdownBody }) {
     if(!frontmatter) return <></>
 
     return (

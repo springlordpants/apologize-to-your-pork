@@ -1,12 +1,10 @@
 import styled from 'styled-components';
-import bg from '../imgs/wild-sea.png'
 
 
 const Body = styled.body`
     margin: 0;
     padding: 0;
     justify-content: center;
-    background: url(${bg});
 `;
 
 const MenuPos = styled.div`
