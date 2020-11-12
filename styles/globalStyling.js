@@ -4,6 +4,7 @@ const Body = styled.body`
   margin: 0;
   padding: 0;
   justify-content: center;
+  background-color: #ffc85b;
 `
 
 const MenuPos = styled.div`
@@ -42,7 +43,7 @@ const SecondTitle = styled.h3`
 
 const PostTitle = styled.h5`
   font-family: "Luna";
-  color: #f3d610;
+  color: #ffc85b;
   margin: 20px 50px 10px;
 `
 
