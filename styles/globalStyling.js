@@ -45,6 +45,21 @@ const PostTitle = styled.h5`
   font-family: "Luna";
   color: #ffc85b;
   margin: 20px 50px 10px;
+  cursor: pointer;
+`
+
+const LinkTitle = styled.a`
+  a:link {
+    text-decoration: none;
+    color: #ffc85b;
+  }
+  a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  a:active {
+    color: #ffc85b;
+  }
 `
 
 const SectionBorder = styled.div`
@@ -69,6 +84,7 @@ export {
   HeadTitle,
   SecondTitle,
   PostTitle,
+  LinkTitle,
   Section,
   SectionBorder,
 }

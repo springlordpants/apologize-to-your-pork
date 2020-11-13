@@ -17,14 +17,11 @@ const Index = ({ posts, title, description, ...props }) => {
         <HeadTitle>Apologize To Your Pork</HeadTitle>
         <SecondTitle>{description}</SecondTitle>
       </TitleWrapper>
-      <SectionBorder>
-        <PostTitle>Apologize To Your Test</PostTitle>
-        <Section>
-          <main>
-            <PostSample posts={posts} />
-          </main>
-        </Section>
-      </SectionBorder>
+      <div>
+        <main>
+          <PostSample posts={posts} />
+        </main>
+      </div>
     </Layout>
   )
 }
