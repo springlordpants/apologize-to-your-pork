@@ -19,7 +19,6 @@ const Index = ({ posts, title, description, ...props }) => {
       </TitleWrapper>
       <SectionBorder>
         <PostTitle>Apologize To Your Test</PostTitle>
-        <PostTitle>Quick change to jog the git</PostTitle>
         <Section>
           <main>
             <PostSample posts={posts} />
