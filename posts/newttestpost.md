@@ -1,6 +1,6 @@
 ---
 title: "Coffee"
-author: "Byron"
+prev: "I'm baby blog beard schlitz, aliqua ex neutra subway tile mixtape iPhone. Air plant forage ramps anim, gochujang vegan cronut. Scenester dolor blue bottle air plant copper mug. Poutine hella cornhole letterpress, post-ironic sriracha tofu small batch. Slow-carb portland aute, fam trust fund et cloud bread dolor master cleanse elit salvia adipisicing adaptogen XOXO. Non kickstarter seitan roof party. Palo santo pabst authentic scenester."
 ---
 
 I'm baby blog beard schlitz, aliqua ex neutra subway tile mixtape iPhone. Air plant forage ramps anim, gochujang vegan cronut. Scenester dolor blue bottle air plant copper mug. Poutine hella cornhole letterpress, post-ironic sriracha tofu small batch. Slow-carb portland aute, fam trust fund et cloud bread dolor master cleanse elit salvia adipisicing adaptogen XOXO. Non kickstarter seitan roof party. Palo santo pabst authentic scenester.
