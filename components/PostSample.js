@@ -32,6 +32,7 @@ export default function PostSample({ posts }) {
                   </Link>
                 </PostTitle>
                 <Section>
+                  <p>{post.frontmatter.date}</p>
                   <p>{post.frontmatter.prev}</p>
                   <div key={post.slug}>
                     <Link href={{ pathname: `/post/${post.slug}` }}>

@@ -1,13 +1,6 @@
 import Layout from "../components/Layout"
 import PostSample from "../components/PostSample"
-import {
-  TitleWrapper,
-  HeadTitle,
-  SecondTitle,
-  PostTitle,
-  Section,
-  SectionBorder,
-} from "../styles/globalStyling"
+import { TitleWrapper, HeadTitle, SecondTitle } from "../styles/globalStyling"
 import matter from "gray-matter"
 
 const Index = ({ posts, title, description, ...props }) => {
