@@ -1,5 +1,6 @@
 import Head from "next/head"
 import Menu from "./Menu"
+import BG from "./Background"
 import TopButton from "./TopButton"
 import { Body, MenuPos } from "../styles/globalStyling"
 import GlobalFonts from "../styles/globalFonts"
@@ -14,6 +15,7 @@ export default function Layout({ children, pageTitle, ...props }) {
         <title>{pageTitle}</title>
       </Head>
       <Body>
+        <BG />
         <Container maxWidth="md">
           <GlobalFonts />
           <BodyFont />

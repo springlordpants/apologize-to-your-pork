@@ -4,7 +4,13 @@ const Body = styled.body`
   margin: 0;
   padding: 0;
   justify-content: center;
-  background-color: #ffc85b;
+`
+
+const Background = styled.div`
+  background-image: url("/../public/imgs/wild-sea.png");
+  background-repeat: repeat;
+  position: fixed;
+  z-index: -1;
 `
 
 const MenuPos = styled.div`
@@ -87,4 +93,5 @@ export {
   LinkTitle,
   Section,
   SectionBorder,
+  Background,
 }
