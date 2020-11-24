@@ -2,10 +2,11 @@ import Layout from "../components/Layout"
 import {
   TitleWrapper,
   HeadTitle,
-  PostTitle,
   Section,
   SectionBorder,
 } from "../styles/globalStyling"
+
+import { AboutTitle } from "../styles/aboutStyling"
 
 const About = ({ title }) => {
   return (
@@ -14,7 +15,7 @@ const About = ({ title }) => {
         <HeadTitle>About</HeadTitle>
       </TitleWrapper>
       <SectionBorder>
-        <PostTitle>Based On A Purely Platonic Oral Fixation</PostTitle>
+        <AboutTitle>Based On A Purely Platonic Oral Fixation</AboutTitle>
         <Section>
           <main>
             <p>
