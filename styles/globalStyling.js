@@ -81,6 +81,7 @@ const Section = styled.div`
   border-radius: 25px;
   font-size: 17px;
   font-family: "Itim";
+  text-align: left;
 `
 
 export {
