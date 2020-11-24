@@ -4,11 +4,11 @@ import { Background } from "../styles/globalStyling"
 const BG = () => (
   <Background>
     <Image
-      src="/../public/imgs/wild-sea.png"
+      src="/../public/imgs/wild-sea-lg.png"
       alt=""
-      rel="preload"
-      width={175}
-      height={175}
+      width={1920}
+      height={1013}
+      layout="fill"
       objectFit="cover"
       quality={100}
     />
