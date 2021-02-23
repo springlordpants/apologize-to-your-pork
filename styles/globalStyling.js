@@ -7,8 +7,6 @@ const Body = styled.body`
 `
 
 const Background = styled.div`
-  background-image: url("/../public/imgs/wild-sea.png");
-  background-repeat: repeat;
   position: fixed;
   z-index: -1;
 `
@@ -81,7 +79,6 @@ const Section = styled.div`
   border-radius: 25px;
   font-size: 17px;
   font-family: "Itim";
-  text-align: left;
 `
 
 export {

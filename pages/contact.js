@@ -1,7 +1,13 @@
 import Layout from "../components/Layout"
-import { TitleWrapper, HeadTitle, SectionBorder } from "../styles/globalStyling"
 import {
-  ContactTitle,
+  TitleWrapper,
+  HeadTitle,
+  SecondTitle,
+  PostTitle,
+  Section,
+  SectionBorder,
+} from "../styles/globalStyling"
+import {
   ContactSection,
   ContactContent,
   ContactList,
@@ -19,9 +25,9 @@ const Contact = ({ title }) => {
         <HeadTitle>Contact</HeadTitle>
       </TitleWrapper>
       <SectionBorder>
-        <ContactTitle>Request your favorite dishes:</ContactTitle>
+        <PostTitle>Request your favorite dishes:</PostTitle>
         <ContactSection>
-          <ContactTitle>Send your food apologies to</ContactTitle>
+          <PostTitle>Send your food apologies to</PostTitle>
           <ContactContent>
             <ContactList>
               <ListItem>
